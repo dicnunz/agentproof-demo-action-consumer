@@ -1,0 +1,15 @@
+{
+  "name": "agentproof-demo-action-consumer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tiny public consumer repo proving dicnunz/agentproof@v0.1.0 works from an outside GitHub Action workflow.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
+    "lint": "node scripts/lint.js",
+    "typecheck": "node scripts/typecheck.js",
+    "dev": "node scripts/dev-server.js"
+  },
+  "license": "MIT"
+}

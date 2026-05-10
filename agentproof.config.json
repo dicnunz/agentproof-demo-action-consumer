@@ -1,0 +1,8 @@
+{
+  "appName": "AgentProof Action Consumer Demo",
+  "routes": ["/", "/fixed"],
+  "startCommand": "node scripts/dev-server.js",
+  "commandTimeoutMs": 30000,
+  "serverTimeoutMs": 10000,
+  "maxLinks": 12
+}

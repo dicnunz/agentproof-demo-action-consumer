@@ -1,0 +1,20 @@
+name: AgentProof
+
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: dicnunz/agentproof@v0.1.0
+        with:
+          path: .
+          output: agentproof-report
+          no-browser: "true"
+          min-score: "70"
