@@ -6,11 +6,11 @@ This is a tiny public repo that proves AgentProof can run from outside the Agent
 
 It uses:
 
-- `dicnunz/agentproof@v0.1.0`
+- `dicnunz/agentproof@v0.1.1`
 - Node 24 through the action runtime
 - local build, test, lint, and typecheck commands
 - a generated `agentproof-report` artifact
-- GitHub Step Summary outputs with the score, blockers, report path, checkout handoff, and intake handoff
+- GitHub Step Summary outputs with the score, blockers, report path, checkout handoff, intake handoff, buyer handoff, and sample deliverable URL
 
 The app is intentionally small. The point is the integration proof, not the UI.
 
@@ -37,3 +37,4 @@ Fixed-price async outside proof:
 
 - Checkout: https://dicnunz.github.io/agentproof/checkout/?repo=dicnunz/agentproof-demo-action-consumer
 - Intake builder: https://dicnunz.github.io/agentproof/intake/?repo=dicnunz/agentproof-demo-action-consumer
+- Buyer handoff: https://dicnunz.github.io/agentproof/handoff/?repo=dicnunz/agentproof-demo-action-consumer
