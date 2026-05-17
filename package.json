@@ -1,9 +1,9 @@
 {
   "name": "agentproof-demo-action-consumer",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": true,
   "type": "module",
-  "description": "Tiny public consumer repo proving dicnunz/agentproof@v0.1.6 works from an outside GitHub Action workflow.",
+  "description": "Tiny public consumer repo proving dicnunz/agentproof@v0.1.7 works from an outside GitHub Action workflow.",
   "scripts": {
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
