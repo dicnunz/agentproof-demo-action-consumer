@@ -4,7 +4,7 @@ This branch exists as a safe public pull-request fixture for AgentProof.
 
 The change is intentionally small. The useful proof is the GitHub Action run on the pull request:
 
-- `dicnunz/agentproof@v0.1.5`
+- `dicnunz/agentproof@v0.1.6`
 - `no-browser: "true"`
 - `min-score: "70"`
 - uploaded `agentproof-report`
