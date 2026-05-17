@@ -6,7 +6,7 @@ This is a tiny public repo that proves AgentProof can run from outside the Agent
 
 It uses:
 
-- `dicnunz/agentproof@v0.1.2`
+- `dicnunz/agentproof@v0.1.3`
 - Node 24 through the action runtime
 - local build, test, lint, and typecheck commands
 - a generated `agentproof-report` artifact
